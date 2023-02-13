@@ -1,0 +1,39 @@
+<svg width="907.7" height="907" version="1.1" viewBox="0 0 240.16 239.98" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="wood-2" color-interpolation-filters="sRGB">
+   <desc>Found at: https://upload.wikimedia.org/wikipedia/commons/a/ae/Wood_circle_filter.svg</desc>
+   <feColorMatrix result="result1" type="saturate" values="0"/>
+   <feBlend in="SourceGraphic" in2="result1" mode="darken" result="Color1"/>
+   <feBlend in="Color1" in2="Color1" mode="multiply" result="Overlap"/>
+   <feTurbulence baseFrequency="0.3 0.01" type="fractalNoise"/>
+   <feColorMatrix values="0 0 0 0.16 0.05
+                          0 0 0 0.11 0.01
+                          0 0 0 0.10 0.01
+                          0 0 0 0 1"/>
+  </filter>
+  <filter id="wood-2-4" color-interpolation-filters="sRGB">
+   <desc>Found at: https://upload.wikimedia.org/wikipedia/commons/a/ae/Wood_circle_filter.svg</desc>
+   <feColorMatrix result="result1" type="saturate" values="0"/>
+   <feBlend in="SourceGraphic" in2="result1" mode="darken" result="Color1"/>
+   <feBlend in="Color1" in2="Color1" mode="multiply" result="Overlap"/>
+   <feTurbulence baseFrequency="0.01 0.01" type="fractalNoise"/>
+   <feColorMatrix values="0 0 0 0.13 0.05
+                          0 0 0 0.08 0.01
+                          0 0 0 0.07 0.01
+                          0 0 0 0 1"/>
+  </filter>
+  <filter id="filter4315" x="-.51565" y="-.0056018" width="2.0313" height="1.0112" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.56006342"/>
+  </filter>
+  <filter id="filter4347" x="-.68136" y="-.070213" width="2.3627" height="1.1404" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="5.0930642"/>
+  </filter>
+ </defs>
+ <g transform="matrix(0 -.2 .20066 0 20.413 220.04)" width="1000" height="1000" opacity=".99673">
+  <rect id="zwei" width="1e3" height="1e3" fill="#56453dff" filter="url(#wood-2)" opacity="1"/>
+ </g>
+ <rect transform="matrix(.30916 0 0 1.0019 161.17 -.45428)" x="231.21" y="-.092161" width="2.6067" height="239.95" fill="#46221a" fill-opacity=".5" filter="url(#filter4315)" opacity=".69281" style="mix-blend-mode:normal"/>
+ <path transform="matrix(.7662 0 0 .79189 55.989 48.42)" d="m224.33 220.27c-4.3381-10.312-11.986-42.8-11.899-76.904 0.0871-34.104 7.8821-69.699 12.148-85.05 4.266-15.352 4.9439-10.248 5.3709 17.923 0.42699 28.172 0.60076 79.39 0.17358 110.93-0.42718 31.544-1.4553 43.409-5.7934 33.098z" fill="#462821" fill-opacity=".7" filter="url(#filter4347)" opacity=".23203"/>
+ <rect transform="matrix(-.006079 0 0 -.20104 240.13 220.57)" width="1e3" height="1e3" fill="#56453dff" filter="url(#wood-2-4)" stroke="#000" stroke-opacity=".47791" stroke-width=".99905"/>
+ <rect x="238.63" y="1.8346" width="2.192" height="239.97" fill="#0d0707" opacity=".37908" stroke="#000" stroke-opacity=".47791" stroke-width=".81361"/>
+</svg>

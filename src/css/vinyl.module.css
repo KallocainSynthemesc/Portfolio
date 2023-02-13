@@ -1,0 +1,74 @@
+.discImage{
+    -webkit-transform: translateX(-5%);
+        -ms-transform: translateX(-5%);
+            transform: translateX(-5%);
+}
+
+.svgDiscEdges{
+    z-index: 0;
+    top: -15%;
+    right: 0;
+    position: absolute;
+    height: 100%;
+    filter: drop-shadow(20px 20px 15px rgb(17, 17, 17));
+}
+
+.discSpin{
+    -webkit-animation-name: spin;
+    animation-name: spin;
+    -webkit-animation-duration: 8000ms;
+    animation-duration: 8000ms;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-transform-origin: 435.59px 483.81px;
+    -ms-transform-origin: 435.59px 483.81px;
+        transform-origin: 435.59px 483.81px;
+}
+
+.vinyl {
+    height: 81%;
+  }
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform:rotateZ(0deg) translateX(-50px);
+                transform:rotateZ(0deg) translateX(-50px);
+    }
+    to {
+        -webkit-transform:rotateZ(359deg) translateX(-50px);
+                transform:rotateZ(359deg) translateX(-50px);;
+    }
+    
+}
+
+@keyframes spin {
+    from {
+        -webkit-transform:rotateZ(0deg) translateX(-50px);
+                transform:rotateZ(0deg) translateX(-50px);
+    }
+    to {
+        -webkit-transform:rotateZ(359deg) translateX(-50px);
+                transform:rotateZ(359deg) translateX(-50px);;
+    }
+    
+}
+
+
+@media (max-aspect-ratio: 16/9) {
+    .svgDiscEdges
+    {
+        height: 108%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+	.discSpin {
+        -webkit-animation-name: none;
+        animation-name: none;
+        -webkit-transform:translateX(-50px);
+            -ms-transform:translateX(-50px);
+                transform:translateX(-50px);
+   }
+}

@@ -1,0 +1,29 @@
+html{
+  font-family: Segoe UI,Tahoma,sans-serif;
+  font-size: 75%;
+  color: 	#222C4A;
+}
+
+@font-face {
+  font-family: 'RetrographDemo'; 
+  src: local('RetrographDemo'), url(RetrographDemo.woff) format('truetype');
+  font-display: swap
+}
+
+*{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,600|Tulpen+One&display=swap');
+
+/*@media only screen and (orientation:portrait){
+html {
+  height: 100vw;
+  width: 100vh;
+  transform: rotate(90deg);
+  margin-left: -39vw;
+  margin-top: 39vw;
+}
+}*/

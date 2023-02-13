@@ -1,0 +1,38 @@
+.left {
+  left: 0;
+  /*background-color: #373735ff;*/
+  background-image: url(../svg/metal.svg);
+  background-size: cover;
+  background-position: right;
+  overflow: hidden;
+}
+
+.split {
+  height: 95.5%;
+  width: 32%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.flex_container {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nowrap  {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}

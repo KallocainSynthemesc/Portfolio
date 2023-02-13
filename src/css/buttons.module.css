@@ -1,0 +1,56 @@
+.buttons_container {
+  height: 14.5%;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center
+}
+
+.button{
+  height: 100%;
+  width: 18.9%;
+}
+
+.buttons
+{
+    position: absolute;
+    height : 13.5%;
+    filter: drop-shadow(4px 4px 2px rgb(10, 10, 10));
+}
+
+.button_color:hover{
+    will-change: opacity; 
+    opacity: 0.2;
+    cursor: pointer;
+    /*transition: opacity 0.2s ease;*/
+    /*width: 10.8%;
+    height: 51%; */
+}
+
+.icon{
+  pointer-events: none;
+}
+@media (max-aspect-ratio: 16/9){
+  
+  .buttons
+  {
+      height : 10%;
+  }
+}
+
+
+@media only screen and (min-width: 1366px) and (max-width: 1439px){
+  .buttons
+  {
+      height : 12%;
+  }
+}

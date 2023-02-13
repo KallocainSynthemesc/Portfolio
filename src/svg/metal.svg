@@ -1,0 +1,31 @@
+<svg width="907.7" height="907" version="1.1" viewBox="0 0 240.16 239.98" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <filter id="filter15571" color-interpolation-filters="sRGB">
+   <feTurbulence baseFrequency="0.0040000000000000001 1" numOctaves="4" result="result0" seed="3" type="fractalNoise"/>
+   <feColorMatrix result="result4" type="saturate" values="0"/>
+   <feComposite in="SourceGraphic" in2="result4" k1="0.02" k2="0.02" k3="0.040000000000000001" k4="0.10000000000000001" operator="arithmetic" result="result2"/>
+   <feBlend in="result2" in2="SourceGraphic" result="result5"/>
+   <feComposite in="result5" in2="SourceGraphic" operator="in" result="result3"/>
+  </filter>
+  <linearGradient id="linearGradient15648" x1="215.57" x2="470.19" y1="10.824" y2="254.42" gradientTransform="translate(-228.91 -10.824)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#555553" stop-opacity=".98171" offset="0"/>
+   <stop stop-color="#555553" stop-opacity=".17226" offset=".2729"/>
+   <stop stop-color="#555553" stop-opacity=".66006" offset=".46972"/>
+   <stop stop-color="#555553" stop-opacity=".041159" offset=".66892"/>
+   <stop stop-color="#555553" stop-opacity=".092988" offset=".82593"/>
+   <stop stop-color="#555553" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient16598" x1="252.71" x2="213.91" y1="111.75" y2="112.13" gradientTransform="matrix(.58028 0 0 1 95.173 -4.2954)" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <filter id="filter16604" x="-.22289" y="-.020085" width="1.4458" height="1.0402" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="2.0423638"/>
+  </filter>
+ </defs>
+ <g>
+  <rect x="-13.342" y="-9.0236e-7" width="254.62" height="243.6" fill="#0a0a08" filter="url(#filter15571)"/>
+  <rect x="-13.342" y="-9.0236e-7" width="254.62" height="243.6" fill="url(#linearGradient15648)" opacity=".49096"/>
+  <rect transform="matrix(.63684 .01865 0 1 87.594 0)" x="219.32" y="-4.5004" width="21.991" height="243.6" fill="url(#linearGradient16598)" filter="url(#filter16604)" style="mix-blend-mode:normal"/>
+ </g>
+</svg>

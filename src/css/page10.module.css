@@ -1,0 +1,60 @@
+.page__10 {
+	position: absolute;
+	right: 0;
+	pointer-events: none;
+	-webkit-transform-style: preserve-3d;
+	        transform-style: preserve-3d;
+	background-color: var(--page-bg);
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(227, 227, 227, 1)), color-stop(18%, rgba(247, 247, 247, 0)));
+	background-image: -o-linear-gradient(left, rgba(227, 227, 227, 1) 0%, rgba(247, 247, 247, 0) 18%);
+	background-image: linear-gradient(90deg, rgba(227, 227, 227, 1) 0%, rgba(247, 247, 247, 0) 18%);
+	overflow: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.page__10 img {
+	height: 75%;
+	width : auto;
+}
+
+.page_front {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: rotateY(0deg) translateZ(0);
+	        transform: rotateY(0deg) translateZ(0);
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	visibility:visible;
+}
+.page_back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*padding: 10px;*/
+	-webkit-transform: rotateY(180deg) translateZ(0);
+	transform: rotateY(180deg) translateZ(0);
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	visibility:visible;
+}
+
+@media (max-aspect-ratio: 16/9) {
+	.page__10 img{
+		height: 70%;
+	}
+}
+
+@media (orientation: portrait) {
+	.page__10 img{
+		height: 40%;
+   	}
+  }
